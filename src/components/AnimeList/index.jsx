@@ -14,7 +14,7 @@ const AnimeList = ({ api }) => {
               height={350}
               className="w-full max-h-64 object-cover"
             />
-            <h3 className="text-lg p-4">{anime.title}</h3>
+            <h1 className="text-lg p-4">{anime.title}</h1>
           </Link>
         )
       })}

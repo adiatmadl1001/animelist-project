@@ -25,7 +25,7 @@ const InputSearch = () => {
         ref={searchRef}
         onKeyDown={handleSearch}
       />
-      <button>
+      <button aria-label="search" role="button">
         <MagnifyingGlass
           size={25}
           className="absolute top-2 end-3"

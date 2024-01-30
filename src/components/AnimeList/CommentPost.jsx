@@ -23,7 +23,7 @@ const CommentPost = async ({ anime_mal_id }) => {
                   return (
                     <button
                       type="button"
-                      id="star-button"
+                      id={index}
                       key={index}
                       className="on"
                     >

@@ -59,7 +59,7 @@ const CommentInput = ({ anime_mal_id, user_email, anime_title, username }) => {
             return (
               <button
                 type="button"
-                id="star-button"
+                id={index}
                 key={index}
                 className={index <= (hover || rating) ? "on" : "off"}
                 onClick={() => handleClickRating(givenRating)}

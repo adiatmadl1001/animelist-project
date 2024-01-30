@@ -27,10 +27,10 @@ const VideoTrailer = ({ youtubeId }) => {
     return (
       <Draggable>
         <div>
-          <button className="sticky top-0" onClick={handleVideoPlayer}>
+          <button aria-label="close" className="sticky top-0" onClick={handleVideoPlayer}>
             <XCircle size={24} color="#fcfcfc" weight="fill" />
           </button>
-          <button className="sticky top-5" onDrag={handleVideoMovement}>
+          <button aria-label="move" className="sticky top-5" onDrag={handleVideoMovement}>
             <ArrowsOutCardinal size={24} color="#faf6ef" weight="fill" />
           </button>
           <YouTube
